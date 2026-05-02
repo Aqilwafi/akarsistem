@@ -33,12 +33,13 @@ Landing page ini menampilkan filosofi dan metodologi AKSI: tiga pilar keseimbang
 app/
 ├── aksi.css                  # Semua styles global halaman
 ├── page.tsx                  # Server Component — entry point halaman
-├── layout.tsx                # Root layout (default Next.js)
-└── components/
-    ├── NavClient.tsx         # Navbar dengan scroll-aware state
-    ├── PillarCard.tsx        # Kartu pilar dengan animasi IntersectionObserver
-    └── AksiStep.tsx          # Langkah metodologi AKSI dengan animasi scroll
-
+└── layout.tsx                # Root layout (default Next.js)
+ 
+components/
+├── NavClient.tsx             # Navbar dengan scroll-aware state
+├── PillarCard.tsx            # Kartu pilar dengan animasi IntersectionObserver
+└── AksiStep.tsx              # Langkah metodologi AKSI dengan animasi scroll
+ 
 public/
 └── akarsistemlogo.png        # Hero image
 ```
