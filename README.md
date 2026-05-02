@@ -1,5 +1,7 @@
 # AKSI · Akar Sistem
 
+[![Deploy](https://img.shields.io/badge/live-vercel-black?style=flat&logo=vercel)](https://akarsistem-staging.vercel.app)
+
 > Landing page untuk **AKSI (Akar Sistem)** — konsultan digitalisasi UMKM Indonesia yang membantu bisnis tumbuh dengan fondasi yang kuat, bukan sekadar tampilan.
 
 ---
@@ -21,7 +23,7 @@ Landing page ini menampilkan filosofi dan metodologi AKSI: tiga pilar keseimbang
 | Styling | CSS Modules + Custom Properties |
 | Font | DM Serif Display · DM Sans (Google Fonts) |
 | Image | `next/image` dengan optimasi otomatis |
-| Deployment | https://akarsistem-staging.vercel.app/ |
+| Deployment | [Vercel](https://akarsistem-staging.vercel.app) |
 
 ---
 
