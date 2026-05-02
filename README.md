@@ -21,7 +21,7 @@ Landing page ini menampilkan filosofi dan metodologi AKSI: tiga pilar keseimbang
 | Styling | CSS Modules + Custom Properties |
 | Font | DM Serif Display · DM Sans (Google Fonts) |
 | Image | `next/image` dengan optimasi otomatis |
-| Deployment | — |
+| Deployment | https://akarsistem-staging.vercel.app/ |
 
 ---
 
