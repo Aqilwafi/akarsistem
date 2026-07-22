@@ -14,20 +14,52 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.akarsistem.biz.id/"),
-  title: "AKSI - Akar Sistem",
-  description: "Konsultan digitalisasi UMKM Indonesia. Kami tidak hanya mendigitalkan bisnis Anda — kami menanamkan fondasinya.",
+  
+  // Title: ~57 Karakter (Target optimal: 50-60)
+  title: "AKSI - Konsultan Digitalisasi & Sistem Bisnis UMKM Indonesia",
+  
+  // Description: ~156 Karakter (Target optimal: 150-160)
+  description:
+    "Konsultan digitalisasi UMKM Indonesia. AKSI membantu membangun sistem bisnis digital yang aman, stabil, dan berkelanjutan. Konsultasi gratis sekarang!",
+  
+  keywords: [
+    "Konsultan Digitalisasi UMKM",
+    "Sistem Bisnis UMKM",
+    "Transformasi Digital Indonesia",
+    "Keamanan Sistem Bisnis",
+    "AKSI Akar Sistem",
+  ],
+
   icons: {
     icon: "/favicon.ico",
   },
+
   openGraph: {
-    title: "AKSI - Akar Sistem",
-    description: "Konsultan digitalisasi UMKM Indonesia. Kami tidak hanya mendigitalkan bisnis Anda — kami menanamkan fondasinya.",
+    title: "AKSI - Konsultan Digitalisasi & Sistem Bisnis UMKM Indonesia",
+    description:
+      "Konsultan digitalisasi UMKM Indonesia. AKSI membantu membangun sistem bisnis digital yang aman, stabil, dan berkelanjutan. Konsultasi gratis sekarang!",
     url: "https://www.akarsistem.biz.id/",
     siteName: "AKSI - Akar Sistem",
-    images: [{ url: "https://www.akarsistem.biz.id/akarsistemlogo.png", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "https://www.akarsistem.biz.id/akarsistemlogo.png",
+        width: 1200,
+        height: 630,
+        alt: "AKSI - Akar Sistem Logo",
+      },
+    ],
     locale: "id_ID",
     type: "website",
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "AKSI - Konsultan Digitalisasi & Sistem Bisnis UMKM Indonesia",
+    description:
+      "Konsultan digitalisasi UMKM Indonesia. AKSI membantu membangun sistem bisnis digital yang aman, stabil, dan berkelanjutan. Konsultasi gratis sekarang!",
+    images: ["https://www.akarsistem.biz.id/akarsistemlogo.png"],
+  },
+
   alternates: {
     canonical: "https://www.akarsistem.biz.id/",
   },
