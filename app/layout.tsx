@@ -13,24 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://akarsistem-staging.vercel.app"),
-  title: "AKSI · Akar Sistem",
+  metadataBase: new URL("https://www.akarsistem.biz.id/"),
+  title: "AKSI - Akar Sistem",
   description: "Konsultan digitalisasi UMKM Indonesia. Kami tidak hanya mendigitalkan bisnis Anda — kami menanamkan fondasinya.",
   icons: {
     icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "AKSI · Akar Sistem",
+    title: "AKSI - Akar Sistem",
     description: "Konsultan digitalisasi UMKM Indonesia. Kami tidak hanya mendigitalkan bisnis Anda — kami menanamkan fondasinya.",
-    url: "https://akarsistem-staging.vercel.app",
-    siteName: "AKSI · Akar Sistem",
-    images: [{ url: "https://akarsistem-staging.vercel.app/akarsistemlogo.png", width: 1200, height: 630 }],
+    url: "https://www.akarsistem.biz.id/",
+    siteName: "AKSI - Akar Sistem",
+    images: [{ url: "https://www.akarsistem.biz.id/akarsistemlogo.png", width: 1200, height: 630 }],
     locale: "id_ID",
     type: "website",
   },
   alternates: {
-    canonical: "https://akarsistem-staging.vercel.app",
+    canonical: "https://www.akarsistem.biz.id/",
   },
 };
 
