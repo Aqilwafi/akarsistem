@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     "Transformasi Digital Indonesia",
     "Keamanan Sistem Bisnis",
     "AKSI Akar Sistem",
+    'Akar Sistem',
+    'AKSI',
   ],
 
   icons: {
